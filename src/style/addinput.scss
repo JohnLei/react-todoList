@@ -1,0 +1,22 @@
+.input-wrapper {
+  width: 100%;
+  margin-top: 10px;
+  input {
+    height: 30px;
+    width: 77%;
+    background:none;  
+    outline:none;  
+    border:1px solid #ccc;
+    box-sizing: border-box;
+  }
+    button {
+      height: 30px;
+      width: 20%;
+      margin: 0;
+      padding: 0;
+      outline: none;
+      background: skyblue;
+      border: none;
+      margin-left: 10px;
+    }
+}

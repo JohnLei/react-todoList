@@ -1,0 +1,54 @@
+.toto-item {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  // background-color: hotpink;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  .check-box {
+    float: left;
+  }
+  .content {
+    display: inline-block;
+    width: 200px;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .btn-box {
+    float: right;
+    margin-right: 10px;
+    .btn-primary {
+      height: 30px;
+      width: 60px;
+      margin-right: 10px;
+      padding: 0;
+      outline: none;
+      background: skyblue;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-warning {
+      height: 30px;
+      width: 60px;
+      margin-right: 10px;
+      padding: 0;
+      outline: none;
+      background: rgb(255, 196, 0);
+      border: none;
+      cursor: pointer;
+    }
+    .btn-denger {
+      height: 30px;
+      width: 60px;
+      margin: 0;
+      padding: 0;
+      outline: none;
+      background: red;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

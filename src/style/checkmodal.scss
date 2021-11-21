@@ -1,0 +1,17 @@
+.toplink {
+  font-size: 20px;
+  color: #333;
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+  .btn-primary {
+    height: 30px;
+    width: 200px;
+    padding: 0;
+    outline: none;
+    background: skyblue;
+    border: none;
+    cursor: pointer;
+  }
+}
